@@ -69,6 +69,8 @@ p:nth-of-type(even) {
   flex-direction: column;
   /* 4 */
   align-items: center;
+  /* BONUS 1 */
+  flex-direction: column-reverse; 
 }
 
 #two {
@@ -80,6 +82,9 @@ p:nth-of-type(even) {
   justify-content: space-between;
   /* 8 */
   flex-wrap: wrap;
+  /* BONUS 2 */
+  flex-direction: row;
+  
 }
 
 #three {
@@ -89,4 +94,51 @@ p:nth-of-type(even) {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   /* 11 */
   grid-auto-rows: 100px;
+  
+}
+
+/* BONUS 3 */
+#brown {
+  align-self: flex-start;
+}
+
+#purple {
+  
+}
+
+/* BONUS 4 */
+#p-one {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#p-two {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+#p-three {
+grid-row-start: 2;
+grid-row-end: 4;
+}
+
+#p-four {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+#p-five {
+grid-row-start: 2;
+grid-row-end: 5;
+}
+
+#p-six {
+grid-column-start: 1;
+grid-column-end: 4;
+}
+
+#p-eight {
+grid-column-start: 2;
+grid-column-end: 5;
 }
