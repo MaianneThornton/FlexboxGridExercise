@@ -59,3 +59,34 @@ p:nth-of-type(even) {
 }
 
 /* START BELOW THIS LINE */
+
+/* 1 */
+#one {
+  display: flex;
+  /* 2 */
+  justify-content: flex-end;
+  /* 3 */
+  flex-direction: column;
+  /* 4 */
+  align-items: center;
+}
+
+#two {
+  /* 5 */
+  display: flex;
+  /* 6 */
+  align-content: center;
+  /* 7 */
+  justify-content: space-between;
+  /* 8 */
+  flex-wrap: wrap;
+}
+
+#three {
+  /* 9 */
+  display: grid;
+  /* 10 */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* 11 */
+  grid-auto-rows: 100px;
+}
