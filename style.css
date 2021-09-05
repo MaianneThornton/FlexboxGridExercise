@@ -83,7 +83,9 @@ p:nth-of-type(even) {
   /* 8 */
   flex-wrap: wrap;
   /* BONUS 2 */
-  flex-direction: row;
+  flex-direction: row-reverse;
+  /* BONUS 3 */
+  
   
 }
 
@@ -94,16 +96,19 @@ p:nth-of-type(even) {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   /* 11 */
   grid-auto-rows: 100px;
-  
 }
 
-/* BONUS 3 */
-#brown {
-  align-self: flex-start;
+/* BONUS 3  */
+
+ #brown {  
+position: relative;
+bottom: 150px;
 }
 
 #purple {
-  
+  order: -1;
+  position: relative;
+  top: 150px;
 }
 
 /* BONUS 4 */
